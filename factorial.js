@@ -8,6 +8,7 @@ function factorial(n){
     }
 }
 
+
 function main() {
     const n = +(readLine());
     
