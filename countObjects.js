@@ -32,6 +32,20 @@ function getCount(objects) {
     return objects.filter(function(o){return o.x==o.y}).length
 }
 
+/*
+Other way to solve:
+
+function getCount(objects) {
+    var count = 0;
+    for(var i=0; i<objects.length; i++){
+      if(objects[i].x == objects[i].y) {
+        count++;
+      }
+    }
+    return count;
+}
+
+*/
 
 function main() {
     const n = +(readLine());
