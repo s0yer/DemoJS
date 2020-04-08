@@ -32,7 +32,7 @@ function vowelsAndConsonants(s) {
 */
 
 
-s = 'easypeasy'
+//s = 'easypeasy'
 
 function vowelsAndConsonants(s) {
     let vowels = [ 'a', 'e', 'i', 'o', 'u'];
