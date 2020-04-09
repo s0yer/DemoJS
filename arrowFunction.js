@@ -14,9 +14,10 @@ function modifyArray(nums) {
 
 
 function main() {
-    const n = +(readLine());
-    const a = readLine().split(' ').map(Number);
     
-    document.write(modifyArray(a).toString().split(',').join(' '), "<br>");
+    const n = 8;
+    const arr = [55, 40, 20, 33, 21, 40, 55, 10];
+    
+    document.write(modifyArray(arr).toString().split(',').join(' '), "<br>");
 }
 
