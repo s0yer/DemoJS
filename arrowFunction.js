@@ -1,4 +1,5 @@
 
+
 function modifyArray(nums) {
     var arrowFunc = function(n){
        if(n%2==0){
@@ -16,5 +17,6 @@ function main() {
     const n = +(readLine());
     const a = readLine().split(' ').map(Number);
     
-    console.log(modifyArray(a).toString().split(',').join(' '));
+    document.write(modifyArray(a).toString().split(',').join(' '), "<br>");
 }
+

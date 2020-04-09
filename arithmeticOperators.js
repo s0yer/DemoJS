@@ -6,6 +6,9 @@
 *   
 *	Return a number denoting the rectangle's area.
 **/
+const length = 33;
+const width = 87;
+
 
 function getArea(length, width) {
     let area;
@@ -29,3 +32,5 @@ function getPerimeter(length, width) {
     return perimeter;
 }
 
+document.write(getArea(length, width),"\n","<br>");
+document.write(getPerimeter(length, width),"\n","<br>");

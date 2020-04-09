@@ -7,7 +7,7 @@ function getGrade(score) {
 }
 
 */
-------------------------------------------
+
 
 var score = 20;
 
@@ -32,3 +32,4 @@ function getGrade(score) {
     }	
 }
 
+document.write(getGrade(score), "<br>");
