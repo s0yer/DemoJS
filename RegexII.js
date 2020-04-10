@@ -10,9 +10,10 @@ function regexVar() {
     return re;
 }
 
-function main() {
-    const re = regexVar();
-    const s = 'Mr.Jadson';
-    
-    document.write(!!s.match(re));
-}
+
+const re = regexVar();
+const s = "Mr.Jadson";
+
+document.write("<br>","Regex II : ","<br>","<br>");
+document.write(!!s.match(re));
+document.write("<br>","--------------------------------------------------","<br>","<br>");

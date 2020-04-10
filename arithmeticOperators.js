@@ -32,5 +32,7 @@ function getPerimeter(length, width) {
     return perimeter;
 }
 
+document.write("<br>","Arithmetic Operators: ","<br>","<br>");
 document.write(getArea(length, width),"\n","<br>");
 document.write(getPerimeter(length, width),"\n","<br>");
+document.write("<br>","--------------------------------------------------","<br>","<br>");

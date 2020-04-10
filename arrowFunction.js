@@ -13,11 +13,10 @@ function modifyArray(nums) {
 }
 
 
-function main() {
-    
-    const n = 8;
-    const arr = [55, 40, 20, 33, 21, 40, 55, 10];
-    
-    document.write(modifyArray(arr).toString().split(',').join(' '), "<br>");
-}
-
+const n = 8;
+const arr = [55, 40, 20, 33, 21, 40, 55, 10];
+ 
+document.write("<br>","Arrow Function: ","<br>","<br>");
+document.write(modifyArray(arr).toString().split(',').join(' '), "<br>");
+console.log(modifyArray(arr).toString().split(',').join(' '), "<br>")
+document.write("<br>","--------------------------------------------------","<br>","<br>");

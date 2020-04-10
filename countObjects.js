@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 process.stdin.resume();
 process.stdin.setEncoding('utf-8');
@@ -21,7 +21,7 @@ process.stdin.on('end', _ => {
 function readLine() {
     return inputString[currentLine++];
 }
-
+*/
 /*
  * Return a count of the total number of objects 'o' satisfying o.x == o.y.
  * 
@@ -45,17 +45,21 @@ function getCount(objects) {
     return count;
 }
 
-*/
+
 
 function main() {
     const n = +(readLine());
-    let objects = [];
+    let objects = [(4,8), (8,16)];
     
     for (let i = 0; i < n; i++) {
         const [a, b] = readLine().split(' ');
         
         objects.push({x: +(a), y: +(b)});
     }
+
     
-    console.log(getCount(objects));
 }
+*/
+let objects = [(x:4, y:8), (x:8,y:16)];
+
+document.write(getCount(objects));

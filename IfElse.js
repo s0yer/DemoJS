@@ -32,4 +32,6 @@ function getGrade(score) {
     }	
 }
 
+document.write("<br>","If Else Statement: ","<br>","<br>");
 document.write(getGrade(score), "<br>");
+document.write("<br>","--------------------------------------------------","<br>","<br>");
