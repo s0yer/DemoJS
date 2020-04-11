@@ -9,7 +9,7 @@ function getDayName(dateString) {
     return new Intl.DateTimeFormat('en-Us', options).format(date);
 }
 
-
+/*
 function main() {
     
     
@@ -19,3 +19,6 @@ function main() {
         document.write((getDayName(date));
     }
 }
+*/
+const date = 04/09/2020;
+document.write((getDayName(date));

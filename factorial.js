@@ -1,16 +1,18 @@
 
+var n = 21;
+
 function factorial(n){
+
 
     if(n==0){
         return 1;
     }else{
-        return n * factorial(n-1);
+        return n*factorial(n-1);
     }
 }
 
 
-function main() {
-    const n = +(readLine());
-    
-    console.log(factorial(n));
-}
+
+document.write("<br>","factorial Function: ","<br>","<br>");
+document.write(factorial(n));
+document.write("<br>","--------------------------------------------------","<br>","<br>");
