@@ -1,5 +1,5 @@
 
-var n = 21;
+var x = 21;
 
 function factorial(n){
 
@@ -14,5 +14,5 @@ function factorial(n){
 
 
 document.write("<br>","factorial Function: ","<br>","<br>");
-document.write(factorial(n));
+document.write(factorial(x));
 document.write("<br>","--------------------------------------------------","<br>","<br>");
