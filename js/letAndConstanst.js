@@ -1,6 +1,6 @@
 
 
-function letConst(){
+function letConst(z){
     
     let area = 0;
     let perimeter = 0;
@@ -18,13 +18,18 @@ function letConst(){
 
         PI = 0;
         document.write(PI);
+        z=35505;
         
     } catch(Error) {
 
         document.write("You correctly declared PI as a constant. ");
+        z=PI;
     }
+    
+    return z;
 }
 
-//document.write("<br>","let-const Function: ","<br>","<br>");
-//document.write(letConst());
-//document.write("<br>","--------------------------------------------------","<br>","<br>");
+var k = 0;
+document.write("<br>","let-const Function: ","<br>","<br>");
+document.write(letConst(k));
+document.write("<br>","--------------------------------------------------","<br>","<br>");
