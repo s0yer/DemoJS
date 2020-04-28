@@ -1,7 +1,7 @@
 
 var message = "Welcome to the Jedi JavaScript Area :) ";
 
-welcomeFunction(s){
+function welcomeFunction(s){
     alert(s);
 }
 

@@ -1,5 +1,3 @@
-//store data with node.js in mongoDB
-
 
 
 function Send() {
