@@ -1,19 +1,25 @@
 
 
-function rectangle(a, b) {
-    this.length = a;
-    this.width = b;
-    this.perimeter = 2 * (a+b);
-    this.area = a * b;
+function Rectangle(a, b) {
     
-    document.write("Perimeter = " + this.perimeter);
-    document.write("Area = " + this.area);
+    let lg = a;
+    let width = b;
+    let perimeter = 2 * (a+b);
+    let area = a * b;
+    
+    document.write("Length = " + lg, "<br>");
+    document.write("Width = " + width, "<br>");
+    document.write("Perimeter = " + perimeter, "<br>");
+    document.write("Area = " + area);
+    
+    return 1;
 }   
 
-const x = 21;
-const y = 34;
+
+var x = 21;
+var y = 34;
 
 
 document.write("<br>","Retangle Function: ","<br>","<br>");
-rectangle(x,y)
+Rectangle(x,y);
 document.write("<br>","--------------------------------------------------","<br>","<br>");
