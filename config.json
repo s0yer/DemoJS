@@ -1,8 +1,6 @@
-//confjson
-
 {
 	"rootFolder": "./static",
-    "defaultIndex": "/index.html",
+    "defaultIndex": "/indexDemoJS.html",
     "types" : {
     	"htm": "text/html",
 	    "html": "text/html",
