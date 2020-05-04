@@ -2,6 +2,11 @@
 
     Project to improve the JavaScript skills.
     
+    
+    Execute the file indexDemoJS.html
+    
+    or
+    
     Install node.js
     Install nodemon > npm install -g nodemon
 
