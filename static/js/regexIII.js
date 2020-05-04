@@ -11,11 +11,15 @@ function regexVar() {
     return re;
 }
 
-s = '1.1235813';
+
 
 const re = regexVar();
-const s = readLine();
-    
+const s = "1.1235813";
+
 const r = s.match(re);
-    
-document.write(r);
+
+document.write("<br>","Regex II : ","<br>","<br>");
+for (const e of r) {
+    document.write(e);
+}
+document.write("<br>","--------------------------------------------------","<br>","<br>");
