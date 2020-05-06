@@ -1,5 +1,4 @@
 
-s = 'hsaushfs'
 
 function getLetter(s) {
 	
@@ -23,3 +22,9 @@ function getLetter(s) {
 	}
     return letter;
 }
+
+var g = 'hsaushfs';
+
+document.write("<br>","Switch Case: ","<br>","<br>");
+document.write(getLetter(g));
+document.write("<br>","--------------------------------------------------","<br>","<br>");
