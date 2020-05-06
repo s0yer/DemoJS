@@ -1,4 +1,6 @@
-
-
 Version 1.0.0
 
+- Running scripts /js
+- Add form to send messages
+- style in /css
+- Webserver Node.js
