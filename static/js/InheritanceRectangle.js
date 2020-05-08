@@ -6,12 +6,10 @@ class Rectang{
 
 }
  // method to the Rectangle class' prototype
-    Rectangle.prototype.area = function(w, h){
+    Rectang.prototype.area = function(w, h){
         return (this.w*this.h);
     }
 
-const area = new Rectangle(800,900);
-  
     
 // Square class that inherits from Rectangle and implement its //class constructor
 
@@ -24,7 +22,7 @@ class Squar extends Rectang{
 }
 
 
-const rec = new Rectang(3.4);
+const rec = new Rectang(3,4);
 const sqr = new Squar(3);
 
 
