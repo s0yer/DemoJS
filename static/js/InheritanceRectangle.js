@@ -26,7 +26,7 @@ const rec = new Rectang(3,4);
 const sqr = new Squar(3);
 
 
-document.write("<br>","Objects and Inheritance: ","<br>","<br>");
+document.write("<br>","Inheritance: ","<br>","<br>");
 document.write(rec.area(), "<br>");
 document.write(sqr.area(), "<br>");
 document.write("<br>","--------------------------------------------------","<br>","<br>");
