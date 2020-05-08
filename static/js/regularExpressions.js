@@ -17,8 +17,19 @@ function regexVar() {
 	 
 	 */
 	 
-	 
     let re = /^([aeiou]).+\1$/;
-    
     return re;
 }
+
+const rexp = regexVar();
+const stg = "Jadson Marliere de Oliveira";
+const rx = stg.match(rexp);
+
+document.write("<br>","Regex IV : ","<br>","<br>");
+document.write(!!stg.match(rexp),"<br>");
+
+for (const t of rx) {
+   document.write(t);
+}
+
+document.write("<br>","--------------------------------------------------","<br>","<br>");
