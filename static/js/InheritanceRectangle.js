@@ -1,4 +1,4 @@
-class Rectangle{
+class Rectang{
     constructor(w, h) {
         this.w = w;
         this.h = h;
@@ -6,7 +6,7 @@ class Rectangle{
 
 }
  // method to the Rectangle class' prototype
-    Rectangle.prototype.area = function(){
+    Rectangle.prototype.area = function(w, h){
         return (this.w*this.h);
     }
 
@@ -15,7 +15,7 @@ const area = new Rectangle(800,900);
     
 // Square class that inherits from Rectangle and implement its //class constructor
 
-class Square extends Rectangle{
+class Squar extends Rectang{
     constructor(s){
         super(s);
         this.h = s;
@@ -24,8 +24,9 @@ class Square extends Rectangle{
 }
 
 
-const rec = new Rectangle(3, 4);
-const sqr = new Square(3);
+const rec = new Rectang(3.4);
+const sqr = new Squar(3);
+
 
 document.write("<br>","Objects and Inheritance: ","<br>","<br>");
 document.write(rec.area(), "<br>");
