@@ -22,11 +22,14 @@ function regexVar() {
 }
 
 const rexp = regexVar();
-const stg = "Jadson Marliere de Oliveira";
+const stg = "aaaeeeiiiaaoooo";
 const rx = stg.match(rexp);
 
 document.write("<br>","Regex IV : ","<br>","<br>");
 document.write(!!stg.match(rexp),"<br>");
+
+
+document.write("<br>","--------------------------------------------------","<br>","<br>");
 
 for (const t of rx) {
    document.write(t);

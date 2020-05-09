@@ -22,3 +22,9 @@ function getSecondLargest(nums) {
     }
     return s;
 }
+
+var nums = [20,30,40,50,55];
+document.write("<br>","Second Largest Number : ","<br>","<br>");
+document.write("Array: " + nums,"<br>");
+document.write(getSecondLargest(nums),"<br>");
+document.write("<br>","--------------------------------------------------","<br>","<br>");
