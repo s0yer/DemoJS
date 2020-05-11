@@ -14,14 +14,14 @@ function sides(literals, ...expressions) {
 }
 
 
-function main() {
-    let s1 = +(readLine());
-    let s2 = +(readLine());
-    
+    //let s1 = +(readLine());
+    //let s2 = +(readLine());
+    let s1 = 13;
+    let s2 = 34;
+
     [s1, s2] = [s1, s2].sort();
     
-    const [x, y] = sides`The area is: ${s1 * s2}.\nThe perimeter is: ${2 * (s1 + s2)}.`;
+    const [x, y] = sides`The area is: ${s1 * s2}.\n The perimeter is: ${2 * (s1 + s2)}.)`;
     
-   document.write((s1 === x) ? s1 : -1);
-   document.write((s2 === y) ? s2 : -1);
-}
+    document.write((s1 === x) ? s1 : -1);
+    document.write((s2 === y) ? s2 : -1);
